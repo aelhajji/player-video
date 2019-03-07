@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Video Player dark</title>
+    <link rel="stylesheet" href="men.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="c-video">
+            <video class="video" src="HDR.mp4"></video>
+            <div class="controls">
+                <div class="black-bar">
+                    <div class="yellow-juice"></div>
+                </div>
+                <div class="buttons">
+                    <button id="play-pause" class="playbtn" onclick="PlayPause()"></button>
+                    <i class="fas fa-fast-backward baten" onclick="prevved()"></i>
+                    <i class="fas fa-backward baten" onclick="prev()"></i>
+                    <i class="fas fa-stop baten" onclick="stop1()"></i>
+                    <i class="fas fa-forward baten" onclick="next()"> </i>
+                    <i class="fas fa-fast-forward baten" onclick="nextved()"></i>
+                    <i class="far fa-plus-square baten" onclick="speed1()"></i>
+                    <i class="fas fa-volume-up baten " onmousemove="hoverrangesond()" onclick="sondonof()"></i>
+                    <input type="range" class="volume " min="0" max="100" value="100" onmousemove="volume1(this.value)">
+                    <!-- <p class="baten durat"></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
