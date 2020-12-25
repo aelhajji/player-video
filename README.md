@@ -1,2 +1,2 @@
 # player-video:
-lien: https://abdeljabarelhajji.github.io/player-video/
+lien pour voire le projet: https://abdeljabarelhajji.github.io/player-video/
